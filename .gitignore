@@ -34,3 +34,4 @@ reports/generated/
 .vscode/
 .DS_Store
 Thumbs.db
+docs/interview-notes.md
