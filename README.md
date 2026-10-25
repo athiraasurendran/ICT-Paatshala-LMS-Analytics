@@ -1,145 +1,216 @@
+
 <div align="center">
 
-# ICT Paatshala LMS Analytics
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:080B1A,25:172554,60:4338CA,100:0891B2&height=280&section=header&text=ICT%20Paatshala%20LMS%20Analytics&fontSize=36&fontColor=FFFFFF&fontAlignY=35&desc=DATA%20SCIENCE%20%20%7C%20%20ANALYTICS%20%20%7C%20%20INTELLIGENT%20INSIGHTS&descSize=15&descAlignY=56&animation=fadeIn" alt="ICT Paatshala LMS Analytics abstract banner"/>
 
-### Data Science & Analytics · Internship Case Study
+<br/>
 
-<img alt="Python" src="https://img.shields.io/badge/Python-Analysis-3776AB?style=for-the-badge&logo=python&logoColor=white">
-<img alt="Pandas" src="https://img.shields.io/badge/Pandas-Data%20Preparation-150458?style=for-the-badge&logo=pandas&logoColor=white">
-<img alt="Plotly" src="https://img.shields.io/badge/Plotly-Visualisation-3F4F75?style=for-the-badge&logo=plotly&logoColor=white">
-<img alt="Flask" src="https://img.shields.io/badge/Flask-Dashboard-000000?style=for-the-badge&logo=flask&logoColor=white">
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=2800&pause=850&color=67E8F9&center=true&vCenter=true&width=780&lines=Exploring+Learning+Management+System+Data;Data+Science+%7C+Exploratory+Data+Analysis;Transforming+Historical+Data+into+Insights;Python+%7C+Visualisation+%7C+Flask+Development" alt="Animated project introduction"/>
 
-**A confidentiality-safe overview of an LMS analytics project completed during an IT Solution Internship at ICT Academy of Kerala.**
+<br/><br/>
+
+<img src="https://img.shields.io/badge/DOMAIN-DATA%20SCIENCE-6366F1?style=for-the-badge&labelColor=080B1A" alt="Data Science"/>
+<img src="https://img.shields.io/badge/FOCUS-DATA%20ANALYTICS-0891B2?style=for-the-badge&labelColor=080B1A" alt="Data Analytics"/>
+<img src="https://img.shields.io/badge/PROJECT-LMS%20ANALYTICS-14B8A6?style=for-the-badge&labelColor=080B1A" alt="LMS Analytics"/>
+<img src="https://img.shields.io/badge/CONTEXT-PROFESSIONAL%20INTERNSHIP-A78BFA?style=for-the-badge&labelColor=080B1A" alt="Professional internship"/>
+
+<br/><br/>
+
+**A Data Science & Analytics case study**  
+*Learning Management System · Historical Trends · Learner Engagement · Programme Performance*
+
+<br/>
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+<img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas"/>
+<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy"/>
+<img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter Notebook"/>
+<img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square" alt="Matplotlib"/>
+<img src="https://img.shields.io/badge/Seaborn-5A9BD5?style=flat-square" alt="Seaborn"/>
+<img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white" alt="Plotly"/>
+<img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask"/>
+<img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" alt="Visual Studio Code"/>
 
 </div>
 
 ---
 
-> **Confidentiality note:** This repository documents project scope, analytical workflow, and high-level solution design only. It does not contain organisational datasets, internal dashboard screenshots, company-specific KPI values, or detailed internal findings.
+<div align="center">
 
-## Project at a glance
+### ◈ FROM RAW DATA TO ANALYTICAL INSIGHTS ◈
 
-| | |
+**Data Preparation → Exploratory Analysis → Trend Investigation → Visualisation → Application Development**
+
+</div>
+
+> [!IMPORTANT]
+> This public repository is a confidentiality-safe case study. Organisational datasets, learner identifiers, internal dashboard screenshots, confidential KPI values, and organisation-specific findings are not published.
+
+
+## <img src="https://img.shields.io/badge/01-PROJECT%20OVERVIEW-312E81?style=for-the-badge" alt="Project overview"/>
+
+An applied Data Science & Analytics project completed during an **IT Solution Internship at ICT Academy of Kerala**, focused on exploring historical Learning Management System (LMS) data.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### ◈ Project Profile
+
+| Attribute | Details |
 |---|---|
-| **Project domain** | Learning Management System (LMS) analytics |
-| **Professional context** | IT Solution Intern — Data Science & Analytics |
-| **Historical period analysed** | 2019–2025 |
-| **Input format** | Excel files |
-| **Analysis environment** | Python in Jupyter Notebook |
-| **Presentation layer** | Flask-based analytics dashboard |
+| Domain | LMS Analytics |
+| Role | IT Solution Intern — Data Science & Analytics |
+| Analysis period | 2019–2025 |
+| Source format | Excel files |
+| Programming | Python |
+| Analysis environment | Jupyter Notebook |
+| Development environment | Visual Studio Code |
+| Application framework | Flask |
 
-## Overview
+</td>
+<td width="50%" valign="top">
 
-The project focused on preparing historical LMS data for analysis and exploring indicators related to learner engagement and programme performance. The workflow covered data preparation, exploratory data analysis (EDA), descriptive statistics, time-based trend exploration, programme comparisons, and dashboard presentation.
+### ◈ Analytical Focus
 
-The dashboard brought selected indicators and visual views into one place so stakeholders could review patterns and identify areas for further investigation. This public case study describes the approach without disclosing confidential results.
+- Learner enrolment trends
+- Course completion and dropout indicators
+- Programme-level comparisons
+- Learner activity and assignment submissions
+- Historical and COVID-era patterns
+- Descriptive statistics and visual exploration
 
-## Analytical workflow
+</td>
+</tr>
+</table>
+
+---
+
+## <img src="https://img.shields.io/badge/02-ANALYTICAL%20WORKFLOW-4338CA?style=for-the-badge" alt="Analytical workflow"/>
 
 ```mermaid
 flowchart TD
-    A["Historical LMS data<br/>Excel · 2019–2025"] --> B["Python / Jupyter Notebook"]
-    B --> C["Data preparation<br/>Pandas · NumPy"]
-    C --> D["EDA & descriptive statistics"]
-    D --> E["Trend and programme analysis"]
-    E --> F["Visual exploration<br/>Matplotlib · Seaborn · Plotly"]
-    F --> G["Flask analytics dashboard"]
-    G --> H["KPI cards and views<br/>Engagement · Activity · Programme performance"]
+    A["Historical LMS Data<br/>Excel · 2019–2025"]
+    B["Data Preparation<br/>Python · Pandas · NumPy"]
+    C["Exploratory Data Analysis<br/>EDA · Descriptive Statistics"]
+    D["Trend and Programme Analysis"]
+    E["Visual Exploration<br/>Matplotlib · Seaborn · Plotly"]
+    F["Flask Application<br/>Developed in VS Code"]
+    G["Presentation of Selected Metrics"]
+
+    A --> B --> C --> D --> E --> F --> G
+
+    classDef input fill:#172554,stroke:#38BDF8,color:#FFFFFF
+    classDef process fill:#1E1B4B,stroke:#818CF8,color:#FFFFFF
+    classDef output fill:#042F2E,stroke:#2DD4BF,color:#FFFFFF
+
+    class A input
+    class B,C,D,E process
+    class F,G output
 ```
 
-## What the work covered
+
+---
+
+## <img src="https://img.shields.io/badge/03-TECHNOLOGY%20ECOSYSTEM-0891B2?style=for-the-badge" alt="Technology ecosystem"/>
+
+<div align="center">
+
+| Layer | Technologies | Purpose |
+|---|---|---|
+| Programming | Python | Data analysis and manipulation |
+| Notebook analysis | Jupyter Notebook | Exploratory analysis and statistical investigation |
+| Data preparation | Pandas, NumPy | Cleaning and transformation |
+| Visualisation | Matplotlib, Seaborn, Plotly | Statistical plots and trend visualisation |
+| Development | Visual Studio Code | Flask application development |
+| Application framework | Flask | Web-based analytics presentation |
+
+</div>
+
+---
+
+## <img src="https://img.shields.io/badge/04-ANALYTICAL%20WORKSTREAMS-6366F1?style=for-the-badge" alt="Analytical workstreams"/>
 
 <details>
-<summary><strong>01 · Data preparation</strong></summary>
+<summary><strong>◈ 01 — Data preparation</strong></summary>
 
-- Worked with historical Excel-based LMS data.
-- Used Python, Pandas, and NumPy for data cleaning and manipulation.
+- Prepared historical Excel-based LMS data for analysis.
+- Used Pandas and NumPy for cleaning and manipulation.
 - Performed data-quality checks appropriate to the available fields.
-- Prepared data for exploratory and descriptive analysis.
+- Organised data for exploratory and descriptive analysis.
 
 </details>
 
 <details>
-<summary><strong>02 · Exploratory and trend analysis</strong></summary>
+<summary><strong>◈ 02 — Exploratory data analysis</strong></summary>
 
-- Performed EDA and descriptive statistics, including mean, median, and mode where appropriate.
-- Explored monthly and yearly enrolment, dropout, and course-completion patterns.
+- Examined data distributions and descriptive statistics.
+- Used mean, median, and mode where appropriate.
+- Explored monthly and yearly enrolment, dropout, and completion patterns.
 - Investigated changes around the COVID-19 period.
-- Examined relationships between selected indicators, including enrolment and completion.
 
 </details>
 
 <details>
-<summary><strong>03 · Programme and engagement analysis</strong></summary>
+<summary><strong>◈ 03 — Programme and engagement analysis</strong></summary>
 
-- Compared programme-level enrolment, completion, and dropout indicators.
+- Compared selected programme-level indicators.
 - Explored learner activity and assignment-submission information.
-- Considered how the indicators could help stakeholders review engagement and programme performance.
+- Investigated patterns relevant to engagement and programme performance.
+- Considered how the indicators could support stakeholder review.
 
 </details>
 
 <details>
-<summary><strong>04 · Dashboard presentation</strong></summary>
+<summary><strong>◈ 04 — Application development</strong></summary>
 
-- Developed a Flask-based analytics dashboard.
-- Presented KPI cards and views for monthly/yearly trends, learner activity, assignment submissions, engagement, and programme performance.
+- Developed a Flask-based analytics application.
+- Used Visual Studio Code as the development environment.
+- Presented selected metrics and trends in a consolidated interface.
 
 </details>
 
-## Technology stack
+---
 
-| Workstream | Tools |
-|---|---|
-| Programming and analysis | Python, Jupyter Notebook |
-| Data cleaning and manipulation | Pandas, NumPy |
-| Exploratory analysis and descriptive statistics | Python, Pandas, NumPy |
-| Data visualisation | Matplotlib, Seaborn, Plotly |
-| Web application / dashboard | Flask |
+## <img src="https://img.shields.io/badge/05-BUSINESS%20QUESTIONS-14B8A6?style=for-the-badge" alt="Business questions"/>
 
-## Business questions explored
-
-- How did enrolment, dropout, and course-completion patterns vary by month and year?
+- How did enrolment, dropout, and completion patterns vary over time?
 - What changes were visible around the COVID-19 period?
-- How did selected enrolment and completion indicators move in relation to one another?
-- How did programmes compare across enrolment, completion, and dropout indicators?
-- What could learner activity and assignment-submission information contribute to an engagement review?
-- How could selected indicators be presented together for easier stakeholder review?
+- How did programmes compare across selected indicators?
+- What could learner activity and assignment submissions contribute to engagement analysis?
+- How could selected metrics be presented together to support stakeholder review?
 
-These are questions explored in the project, not published findings. Actual values and organisation-specific conclusions are not included.
+These questions describe the analytical scope, not published findings.
 
-## Intended business use
+---
 
-The dashboard consolidated selected indicators and visualisations to support review of learner engagement and programme performance. It was intended to make patterns easier to inspect and support data-informed discussion.
+## <img src="https://img.shields.io/badge/06-PROJECT%20DOCUMENTATION-A78BFA?style=for-the-badge" alt="Project documentation"/>
 
-**No quantified business impact is claimed in this repository.** Actual results are not published because the underlying data and dashboard are confidential.
-
-## Repository guide
-
-| File | Purpose |
+| Document | Purpose |
 |---|---|
-| [`docs/project-methodology.md`](docs/project-methodology.md) | Data preparation, analysis, and visualisation workflow |
-| [`docs/business-questions.md`](docs/business-questions.md) | Analytical questions and interpretation principles |
-| [`docs/solution-architecture.md`](docs/solution-architecture.md) | High-level architecture and workflow diagram |
-| [`docs/confidentiality.md`](docs/confidentiality.md) | Public sharing boundaries |
-| [`docs/interview-notes.md`](docs/interview-notes.md) | Concise interview explanation |
+| [Project Methodology](docs/project-methodology.md) | Data preparation and analytical workflow |
+| [Business Questions](docs/business-questions.md) | Analytical questions and interpretation |
+| [Solution Architecture](docs/solution-architecture.md) | High-level architecture |
+| [Confidentiality Guidelines](docs/confidentiality.md) | Public sharing boundaries |
 
-## Interview-ready summary
+---
 
-> During my IT Solution Internship in Data Science & Analytics at ICT Academy of Kerala, I worked on ICT Paatshala LMS Analytics using historical Excel-based data covering 2019–2025. I used Python in Jupyter Notebook, Pandas, and NumPy for data preparation and used Matplotlib, Seaborn, and Plotly for exploratory and trend analysis. The work covered enrolment, dropout, course completion, learner engagement, assignment submissions, and programme performance. I also developed a Flask-based dashboard to present selected KPIs and trends. The underlying data and internal dashboard are confidential, so this repository shares only a high-level case study.
+## <img src="https://img.shields.io/badge/07-RESPONSIBLE%20DATA%20PRACTICE-0F766E?style=for-the-badge" alt="Responsible data practice"/>
 
-## Confidentiality checklist
-
-- No original or derived company datasets are included.
-- No student, learner, trainer, or programme identifiers are included.
-- No actual company KPI values, detailed internal findings, or internal reports are published.
+- No original or derived organisational datasets are published.
+- No learner, student, trainer, or programme identifiers are included.
+- No confidential KPI values or detailed internal findings are disclosed.
 - No internal dashboard screenshots, private URLs, credentials, or secrets are included.
-
-Before publishing, confirm that the project description and technology details are permitted under applicable internship and organisational policies. Do not add internal material without explicit authorisation.
+- No quantified business impact is claimed without public evidence.
 
 ---
 
 <div align="center">
 
-**Professional case study · No confidential data included**
+### ◈ DATA · DISCOVERY · ANALYSIS · INSIGHT ◈
+
+*Professional Data Science & Analytics Internship Case Study*
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0891B2,50:312E81,100:080B1A&height=120&section=footer" alt="Abstract gradient footer"/>
 
 </div>
